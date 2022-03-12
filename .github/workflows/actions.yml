@@ -13,6 +13,6 @@ jobs:
           who-to-greet: Judith
     # Create another step to access output
       - name: Log greeting time
-        run: echo "${{ steps.greet.output.time }}"
+        run: echo "${{ steps.greet.outputs.time }}"
 
 
